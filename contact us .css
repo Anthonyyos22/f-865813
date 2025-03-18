@@ -1,56 +1,60 @@
-/* Contact Us Specific */
-.contact-us h2 {
-    font-size: 1.5rem;
-    color: #3498db;
-    margin-bottom: 15px;
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
+/* Background Styling */
+body {
+    background-image: url('/images/contact.jpg'); /* Ensure correct path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+     /* Default text color */
+    padding: 40px;
+}
+
+/* Contact Us Section */
+.contact-us {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Contact Heading */
+.contact-us h2 {
+    font-size: 1.8rem;
+    color: white: 15px;
+}
+
+/* Contact Info */
 .contact-info p {
     font-size: 1rem;
     margin: 10px 0;
-    color: #555;
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-info i {
     margin-right: 10px;
-    color: #2c3e50;
+    color: blue;
+    font-size: 1.2rem;
 }
 
 .contact-info a {
-    color: #3498db;
+    color: yellow;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .contact-info a:hover {
-    text-decoration: underline;
-}
-
-.social-media h3 {
-    font-size: 1.2rem;
-    color: #2c3e50;
-    margin: 15px 0 10px;
-}
-
-.social-media ul {
-    list-style: none;
-}
-
-.social-media li {
-    margin: 8px 0;
-}
-
-.social-media a {
-    color: #3498db;
-    text-decoration: none;
-    font-size: 1rem;
-}
-
-.social-media i {
-    margin-right: 10px;
-    font-size: 1.2rem;
-    color: #2c3e50;
-}
-
-.social-media a:hover {
-    color: #2980b9;
-}
+    text-decoration:

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS - Engineer</title>
+    <link rel="stylesheet" href="allusers.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header class="welcome">
+            <h1 id="welcome-message">Welcome, [Name] (Engineer)!</h1>
+            <button class="logout-btn">Logout</button>
+        </header>
+        <section class="stats">
+            <div class="stat-card"><h3>Attendance Today</h3><p id="attendance">25</p></div>
+            <div class="stat-card"><h3>Pending Deliveries</h3><p id="pending-deliveries">3</p></div>
+        </section>
+        <section class="actions">
+            <button class="action-btn" onclick="viewAttendance()">View Attendance</button>
+            <button class="action-btn" onclick="viewDeliveryReports()">Delivery Reports</button>
+        </section>
+        <section class="activity-feed">
+            <h2>Recent Activity</h2>
+            <ul id="activity-list"></ul>
+        </section>
+    </div>
+    <script src="engineer.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS Dashboard - Admin</title>
+    <link rel="stylesheet" href="users.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Welcome Section -->
+        <header class="welcome">
+            <h1 id="welcome-message"><br>hello boss welcome to your site.</br>Please see your site progress </h1>
+            <p>Need help? Contact support at <a href="mailto:support@gmail.com">support@cms.com</a> or <a href="tel:0796471777">or at our social media pages</a></p>
+            <button class="logout-btn">Logout</button>
+        </header>
+
+        <!-- Quick Stats -->
+        <section class="stats">
+            <div class="stat-card">
+                <h3>Active Users</h3>
+                <p id="active-users">12</p>
+            </div>
+            <div class="stat-card">
+                <h3>Pending Deliveries</h3>
+                <p id="pending-deliveries">3</p>
+            </div>
+            <div class="stat-card">
+                <h3>System Uptime</h3>
+                <p id="system-uptime">99.8%</p>
+            </div>
+        </section>
+
+        <!-- Action Buttons -->
+        <section class="actions">
+            <button class="action-btn" onclick="manageUsers()">Manage Users</button>
+            <button class="action-btn" onclick="viewReports()">View Reports</button>
+            <button class="action-btn" onclick="checkLogs()">Check Logs</button>
+        </section>
+
+        <!-- Recent Activity Feed -->
+        <section class="activity-feed">
+            <h2>Recent Activity</h2>
+            <ul id="activity-list">
+                <li>Added new engineer: Jane Doe - 10:15 AM</li>
+                <li>Delivery #123 completed - 9:45 AM</li>
+                <li>User John logged in - 8:30 AM</li>
+            </ul>
+        </section>
+
+        <!-- Quick Links -->
+       
+    <script src="users.css"></script>
+</body>
+</html>

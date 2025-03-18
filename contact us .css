@@ -1,0 +1,56 @@
+/* Contact Us Specific */
+.contact-us h2 {
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #555;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #2c3e50;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social-media h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin: 15px 0 10px;
+}
+
+.social-media ul {
+    list-style: none;
+}
+
+.social-media li {
+    margin: 8px 0;
+}
+
+.social-media a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.social-media i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+.social-media a:hover {
+    color: #2980b9;
+}

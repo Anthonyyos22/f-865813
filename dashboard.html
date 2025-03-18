@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CMS Dashboard</h1>
+        <button id="logout">Log Out</button>
+    </header>
+    <div class="dashboard">
+        <div id="attendance" class="tab">
+            <h2>Workers' Attendance</h2>
+            <input type="text" id="workerName" placeholder="Worker Name">
+            <button onclick="addAttendance()">Mark Present</button>
+            <ul id="attendanceList"></ul>
+        </div>
+        <div id="delivery" class="tab">
+            <h2>Delivery Report</h2>
+            <input type="text" id="deliveryItem" placeholder="Item Name">
+            <button onclick="addDelivery()">Add Delivery</button>
+            <ul id="deliveryList"></ul>
+        </div>
+        <div id="payments" class="tab">
+            <h2>Payments</h2>
+            <input type="text" id="paymentDesc" placeholder="Description">
+            <input type="number" id="paymentAmount" placeholder="Amount">
+            <button onclick="addPayment()">Add Payment</button>
+            <ul id="paymentList"></ul>
+        </div>
+    </div>
+    <script src="config.js"></script>  <!-- Config loads first -->
+    <script src="scripts.js"></script> <!-- Scripts loads after -->
+</body>
+</html>

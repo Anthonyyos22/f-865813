@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS - Hardware Staff</title>
+    <link rel="stylesheet" href="hardwares.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header class="welcome">
+            <h1 id="welcome-message">Welcome, [Name] (Hardware)!</h1>
+            <button class="logout-btn">Logout</button>
+        </header>
+        <section class="stats">
+            <div class="stat-card">
+                <h3>Hardware Delivery Report</h3>
+                <p id="delivery-report">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Hardware Requests</h3>
+                <p id="hardware-requests">0</p>
+            </div>
+        </section>
+        <section class="materials">
+            <h2>Hardware Materials Available</h2>
+            <table id="materials-table">
+                <thead>
+                    <tr>
+                        <th>Material</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody id="materials-list">
+                    <!-- Populated by JS -->
+                </tbody>
+            </table>
+        </section>
+        <section class="actions">
+            <button class="action-btn" onclick="viewDeliveryReport()">View Delivery Report</button>
+            <button class="action-btn" onclick="viewHardwareRequests()">View Requests</button>
+            <button class="action-btn" onclick="viewMaterialsAvailable()">View Materials Details</button>
+        </section>
+        <section class="activity-feed">
+            <h2>Recent Activity</h2>
+            <ul id="activity-list"></ul>
+        </section>
+    </div>
+    <script src="hardware.js"></script>
+</body>
+</html>

@@ -18,7 +18,7 @@ Project Management: Track project progress and manage assigned personnel.
 - Reports & Analytics: View project insights for better decision-making.
 
 ## Technologies Used
-- **Frontend**: HTML, CSS, React
+- **Frontend**: HTML, CSS, 
 - **Backend**: Django
 - **Database**: MySQL
 
@@ -33,7 +33,7 @@ Ensure you have the following installed:
 ### Backend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/construction-management.git
+   git clone [https://github.com/yourusername/construction-management.git](https://github.com/Anthonyyos22/f-865813.git)
    cd construction-management
    ```
 2. Create a virtual environment:
@@ -70,7 +70,7 @@ Ensure you have the following installed:
 ### Frontend Setup
 1. Navigate to the frontend folder:
    ```bash
-   cd frontend
+   cd  desktop/cms_final_project/frontend
    ```
 2. Install dependencies:
    ```bash
